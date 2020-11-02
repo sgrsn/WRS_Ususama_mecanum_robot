@@ -1,0 +1,7 @@
+<launch>
+  <arg name="namespace" default="ususama"/>
+  <node pkg="rosserial_python" name="serial_node" type="serial_node.py" ns="$(arg namespace)">
+    <param name="port" value="/dev/ttyACM0"/>
+  </node>
+  <node name="key_operator" pkg="key_operator" type="key_operator" ns="$(arg namespace)" output="screen"/>
+</launch>

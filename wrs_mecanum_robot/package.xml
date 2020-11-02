@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wrs_mecanum_robot</name>
+  <version>0.0.0</version>
+  <description>The wrs_mecanum_robot package</description>
+  <maintainer email="sgrsn1711@gmail.com">Hidaka Sato</maintainer>
+  <license>BSD</license>
+  <!-- <url type="website">http://wiki.ros.org/wrs_ususam</url> -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>key_operator</exec_depend>
+  <export><metapackage/></export>
+</package>
