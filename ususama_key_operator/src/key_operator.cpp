@@ -92,10 +92,12 @@ int main(int argc, char **argv)
   "Moving around:\n"
   "        w\n"
   "   a    s    d\n"
+  "   w         c\n"
   "\n"
-  "w/s : +/- motor velocity\n"
-  "a/d : exit safe start\n"
-  "space : stop motor\n"
+  "w/s : +/- forward velocity\n"
+  "a/d : +/- right velocity\n"
+  "z/c : +/- angular velocity\n"
+  "space : stop the robot\n"
   "\n"
   "CTRL-C : quit\n";
   ROS_INFO("%s", msg.c_str());
