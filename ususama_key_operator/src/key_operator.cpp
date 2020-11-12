@@ -110,19 +110,19 @@ int main(int argc, char **argv)
       char c = getch();
       if (c == W)
       {
-        cmd_vel.linear.y += vel_step;
+        cmd_vel.linear.x += vel_step;
       }
       else if (c == S)
       {
-        cmd_vel.linear.y -= vel_step;
+        cmd_vel.linear.x -= vel_step;
       }
       else if (c == A)
       {
-        cmd_vel.linear.x -= vel_step;
+        cmd_vel.linear.y += vel_step;
       }
       else if (c == D)
       {
-        cmd_vel.linear.x += vel_step;
+        cmd_vel.linear.y -= vel_step;
       }
       else if (c == Z)
       {
