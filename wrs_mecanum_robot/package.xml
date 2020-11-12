@@ -8,5 +8,6 @@
   <!-- <url type="website">http://wiki.ros.org/wrs_ususam</url> -->
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>ususama_key_operator</exec_depend>
+  <exec_depend>ususama_pose_operator</exec_depend>
   <export><metapackage/></export>
 </package>
